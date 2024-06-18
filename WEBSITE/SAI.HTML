@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SAI.CSS">
+
+</head>
+
+<body>
+
+    <!-- SECTION - 1 -->
+
+    <div id="section1">
+
+        <!-- TOP MENU BAR -->
+
+        <div>
+            <nav class="navbar">
+                <a href="tel:+919998577160">Call : +919998577160</a>
+                <a href="https://wa.me/9712339777" target="_blank"><img src="SECTION 1/WhatsApp.png" alt=""
+                        height="15px" class="image" />
+                    Whatsapp</a>
+                <a href="https://www.facebook.com/saicomputerservice?mibextid=LQQJ4d" target="_blank"><img
+                        src="SECTION 1/Facebook.png" alt="" height="15px" class="image" />
+                    Facebook</a>
+                <a href="https://www.instagram.com/sai_computer_services_vastral?igsh=dzgwcjIybDZkbjJ5&utm_source=qr"
+                    target="_blank"><img src="SECTION 1/Instagram.png" alt="" height="15px" class="image" />
+                    Instagram</a>
+            </nav>
+        </div>
+
+        <!-- MAIN MENU BAR -->
+
+        <div class="navbar1">
+            <div class="leftimage">
+                <a href="#"><img src="SECTION 1/LOGO.jpg"></a>
+            </div>
+            <div class="rightmenu1">
+                <a href="#section1">Home</a>
+                <a href="#section2">About us</a>
+                <a href="#section3">Service</a>
+                <a href="#section4">Contact</a>
+
+            </div>
+        </div>
+
+        <!-- ======================================================================= -->
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="SECTION 1/SEC1IMG1.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="SECTION 1/SEC1IMG2.JPG">
+            </div>
+            <div class="mySlides fade">
+                <img src="SECTION 1/SEC1IMG3.png">
+            </div>
+            <div class="mySlides fade">
+                <img src="SECTION 1/SEC1IMG4.JPG">
+            </div>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 4000);
+            }
+        </script>
+    </div>
+
+    <!-- SECTION - 2 -->
+
+    <div id="section2">
+        <div class="sec2left">
+            <h1>SAI COMPUTER SERVICES</h1>
+            <hr>
+            <p>We are the leading service provider in the market since 2005. We have huge experience of our work area.
+                We are
+                providing all type of services in the field. We are also providing service @ home, shop or offices. We
+                are
+                working with very much effort and knowledge from our experience.<br></p>
+            <p>We have too many satisfied customers to whom we serve from many years. We also provide service to our new
+                customers day by day. We are the growing service provider in present day.<br></p>
+            <p>We are working in IT related Service, Security & Data Recovery, and also selling all types of computer,
+                laptop,
+                any kind of parts and consumable items of IT field.</p>
+        </div>
+        <div class="sec2right">
+            <img src="SECTION 2/SEC2IMG1.jpeg">
+        </div>
+    </div>
+
+    <!-- SECTION - 3 -->
+
+    <div id="section3">
+        <div class="cardmain">
+            <div class="card">
+                <img src="SECTION 3/SEC3IMG1.jpg">
+                <h1>CCTV</h1>
+                <p><b>Very much useful in...</b><br> Crime Prevention, Employee Monitoring, Evidence Collection, Remote
+                    Surveillance, Cost-Effective Security, Increased Safety</p>
+            </div>
+            <div class="card">
+                <img src="SECTION 3/SEC3IMG4.png">
+                <h1>Networking Solutions</h1>
+                <p>We are providing any kind of networking solution @ customer place ASAP.</p>
+            </div>
+            <div class="card">
+                <img src="SECTION 3/SEC3IMG2.jpg">
+                <h1>Laptop / Desktop Repair Center</h1>
+                <p>Laptop / Desktop / Printer or any kind of repairing, we are ready to serve our experience.</p>
+            </div>
+            <div class="card">
+                <img src="SECTION 3/SEC3IMG3.jpg">
+                <h1>DATA Recovery</h1>
+                <p>Data lost from HDD / SSD / Pendrive or any kind of media, we are ready to recover your data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION - 4 -->
+
+    <div id="section4">
+        <div class="link">
+            <h2>Quick Links</h2>
+            <br>
+            <hr>
+            <br>
+            <p>
+                Call : +91 999 85 77 160<br>
+                E-mail : balmikigupta@gmail.com<br>
+                UPI id : balmikigupta@okhdfcbank<br><br>
+                Pay on...<br>
+                <img src="SECTION 4/SEC4IMG1.jpeg">
+            </p>
+        </div>
+
+        <div class="link">
+            <h2>Address</h2>
+            <br>
+            <hr>
+            <br>
+            <p>SAI COMPUTER SERVICES<br>Somnath Park Society,<br>Nr. Silver City,<br> Takshashila School Road,<br>Vastral,<br>Ahmedabad - 382415
+        </div>
+
+        <div class="link">
+            <h2>Locate Us</h2>
+            <br>
+            <hr>
+            <br>
+            <ul>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3672.384065963512!2d72.65175247531344!3d23.009666379182853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDAwJzM0LjgiTiA3MsKwMzknMTUuNiJF!5e0!3m2!1sen!2sin!4v1718689433641!5m2!1sen!2sin"
+                    width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
